@@ -1,0 +1,437 @@
+.body{
+    background-color:#f2fbff;
+}
+
+
+.secc{
+background-color: white;
+height: 230px;
+}
+.enf{
+    text-align: right;
+  
+}
+.enfo{
+font-size: xx-large;
+color: black;
+
+margin-right: 60px;
+}
+.end{
+    margin-right: 40px;
+margin-bottom: 40px;
+font-size: x-large;
+}
+.vop{
+    display: flex;
+    gap: 200px;
+    background-color: white;
+}
+.vep{
+    gap: 5px;
+    display: flex;
+    margin-left: 40px;
+    
+}
+.oss{
+margin-bottom: 50px;
+display: flex;
+margin-right: 20px;
+
+}
+.vvb    {
+    border-radius: 20px;
+ width: 500px;
+ margin-top: 10px;
+    background-color: gainsboro;
+}
+@media (max-width: 600px){
+.vop{
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+.vda{
+   
+     display: none;   
+ }   
+ .cardss{
+background-color: rgb(255, 255, 255);
+
+width: 100%;
+ } 
+ 
+.btm{
+}
+.vbn{
+    display: none;
+}
+.too{
+ 
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.loki{
+display: none;
+}
+.lok{
+    width: 300px;
+}
+
+.no{
+    margin-left: 100px;
+}
+.ere{
+   display: none;
+    visibility: hidden;
+}
+.doo{
+
+
+ margin-right: 10000px;
+
+}
+.gtk{
+display: none;
+}
+.lokid{
+    display: none;
+}
+
+.vvb{
+width: 300px;
+text-align: start;
+}
+.tof{
+    margin-top: 40px;
+
+    height: 29vh;
+ margin-right: 50px;
+    border-radius: 20px;
+}
+}
+@media (min-width:602px) and (max-width:992px) {
+    .vop{
+        flex-direction: column;
+        gap: 20px;
+        background-color: white;
+    }
+    .oss{
+        margin-left: 130px;
+    }
+   .vda{
+   
+        display: none;   
+    }  
+    .vbn{
+        display: none;
+    }
+    .loki{
+        display: none;
+        }
+        .gtk{
+            display: none;
+            }
+            .lokid{
+                display: none;
+            }
+            .bov{
+         
+              
+            }
+.hamo{
+margin-left: 100px;
+
+}
+        }
+
+
+.boss{
+    border-radius: 100px;
+position: relative;
+}
+    .bos{
+   
+        position: absolute;
+       border-radius: 100px;
+        margin-left: 30px;
+    }
+    .boos{     position: relative;
+        border-radius: 100px;
+   margin-left: 20px;
+   
+}
+.boes{
+    position: absolute;
+border-radius: 100px;
+margin-left: 90px;
+}
+.bofs{
+    position: relative;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.bods{
+    position: absolute;
+border-radius: 100px;
+margin-left: 150px;
+}
+.dogs{
+    position: relative;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+.posf{
+    position: absolute;
+border-radius: 100px;
+margin-left: 210px;
+}
+.boud{
+    position: relative;
+    border-radius: 100px;
+    margin-left: 15px;
+}
+.voud{
+    position: absolute;
+border-radius: 100px;
+margin-left: 260px;
+}
+.gde{
+    position: relative;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.srfg{
+    position: absolute;
+border-radius: 100px;
+margin-left: 310px;
+}
+.dfgr{
+    position: relative;
+    border-radius: 100px;
+    margin-left: 15px;
+}
+.mdd{
+
+    direction: rtl;
+    text-align: end;
+    background-color: white;
+    display: flex;
+height: 85px;
+
+    
+} 
+.mdp{
+    background-color: white;
+    margin-top:40px ;
+    color: rgb(58, 58, 58);
+font-weight: 800;
+}
+.bidd{
+    font-size: larger;
+}
+.cre{
+    width: 10px;
+    height: 40px;
+    font-size: large;
+    text-align: left;
+    direction:ltr;
+}
+
+
+.cardg{
+    display: flex;
+    gap: 5px;
+ display: none;
+ visibility: hidden;
+}
+
+.cardss{
+display: none;
+visibility: hidden;
+
+
+}
+.lokid{
+height: 200vh;
+z-index: 300;
+overflow: hidden;
+
+
+}
+.lokid:hover{
+
+}
+.non{
+    background-color: white;
+
+}
+.bov{   direction: rtl;
+    height: 130px;
+    width: 550px;
+ 
+}
+.ghg{
+    margin-left: 100px;
+}
+.tof{
+    margin-top: 40px;
+
+height: 129vh;
+width: 100px;
+border-radius: 20px;
+}
+
+
+.mjm{
+    margin-right: 30px;
+}
+.ert{
+    margin-right: 30px;
+}
+.no{
+
+    background-color: white;
+    margin-left: 50px;
+}
+.mos{
+    border-radius: 20px;
+    font-size: medium;
+    background-color: rgb(231, 231, 231);
+width: 400px;
+
+height: 40px;
+display: none;
+visibility: hidden;
+} 
+
+.btm{
+    font-size: medium;
+background-color: white;
+display: none;
+visibility: hidden;
+width: 180px;
+
+}
+.cod{
+    margin-left: 30px;
+padding-left: 40px;
+margin-bottom: 100px;
+}
+.vpp{
+    display: flex;
+}
+.mjt{
+
+}
+.gggg{
+    direction: rtl;
+    color: black;
+    margin-right: 30px;
+    font-size: large;
+margin-top: 20px;
+}
+.vbn{
+    margin-top: 20px;
+ 
+
+
+height: 350px;
+}
+.vpo{
+display: flex;
+
+}
+
+.lolo{
+    display: flex;
+    color: black;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.lele{
+    display: flex;
+    gap: 450px;
+direction: ltr;
+margin-top: 20px;
+
+}
+
+.ele{
+    display: flex;
+    gap: 400px;
+
+
+}
+.hrrr{
+
+background-color: white;
+direction: rtl;
+font-size: medium;
+
+}
+.eee{
+    border-radius: 100px;
+ background-color: rgb(199, 199, 199);
+}
+.lol{
+    display: flex;
+}
+.ghhh{
+
+    gap: 50px;
+}
+.mor{
+display: flex;
+gap: 50px;
+margin-right: 60px;
+}
+.too{
+    width: 1500px;
+    direction: rtl;
+
+}
+.doo{
+    width: 600px;
+margin-left: 350px;
+direction: rtl;
+margin-top: 50px;
+}
+
+.for{
+margin-left: 400px;
+margin-top: 100px;
+    
+}
+.mo{
+    margin-top: 20px;
+}
+.byu{
+    margin-top: 200px;
+}
+.fse{
+ margin-left: 100px;  
+}
+.mtt{
+    margin-top: 100px;
+}
+
+.homs{
+text-decoration: none;
+
+
+}
+.fjh{
+    margin-top: 20px;
+    width: 150px;
+}
+.rtr{
+    border-radius: 100px;
+}
+.brand{
+font-family:cursive;
+}

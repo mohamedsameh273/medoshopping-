@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MDB icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/images.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="body">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Navbar-->
+<div class="card medo ">
+  <nav class= "sdf card-body card navbar navbar-expand-lg navbar-light bg-body-tertiary  ">
+    <div class="container-fluid justify-content-between">
+      <!-- Left elements -->
+      <div class="d-flex">
+        <!-- Brand -->
+        <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+         <img src="img/images.png" alt="" width="40px">
+        </a>
+  
+        <!-- Search form -->
+        <form class="input-group w-auto my-auto d-none d-sm-flex">
+          <input
+            autocomplete="off"
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            style="min-width: 125px;"
+          />
+          <span class="input-group-text border-0 d-none d-lg-flex"
+            ><i class="fas fa-search"></i
+          ></span>
+        </form>
+      </div>
+      <!-- Left elements -->
+  
+      <!-- Center elements -->
+      <ul class="navbar-nav flex-row d-none d-md-flex">
+        <li class="nav-item me-3 me-lg-1 active">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-home fa-lg"></i></span>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-flag fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-video fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-shopping-bag fa-lg"></i></span>
+          </a>
+        </li>
+  
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-users fa-lg"></i></span>
+            <span class="badge rounded-pill badge-notification bg-danger">2</span>
+          </a>
+        </li>
+      </ul>
+      <!-- Center elements -->
+  
+      <!-- Right elements -->
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+            <img class="imgggg" src="img/1.jpg" alt="" width="30px">
+            <strong class="d-none d-sm-block ms-1">Shoppind</strong>
+          </a>
+        </li>
+        <li class="nav-item me-3 me-lg-1">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-plus-circle fa-lg"></i></span>
+          </a>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            data-mdb-dropdown-init
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-comments fa-lg"></i>
+  
+            <span class="badge rounded-pill badge-notification bg-danger">6</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            data-mdb-dropdown-init
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell fa-lg"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">12</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown me-3 me-lg-1">
+          <a
+            data-mdb-dropdown-init
+            class="nav-link dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-chevron-circle-down fa-lg"></i>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Right elements -->
+    </div>
+  </nav>
+</div>
+<!-- Navbar -->
+
+    
+<section class="ryu">
+ <div class=" row">
+  <div class=" lg-row-12 md-row-12 sm-row-12  ">
+
+  <img class="top" src="img/2.jpg" alt="" width="100% " height="450px">
+
+    
+     
+    </div>
+ </div>
+
+
+ 
+
+
+</div>
+<!-- Background image -->
+
+
+ <div >
+ 
+ </div>
+
+<section class="secc">
+ <div class="enf">
+  <div class="enfo">
+    <p >Shopping</p>
+  </div>
+<div class="end">
+  <p >
+
+    مجموعة ‏عامة‏
+    ·
+   ‏٢٢٨٫٧ ألف‏ عضو
+    <i class="fa-solid fa-earth-americas"></i>  </p> 
+</div>
+   
+ </div>
+
+<div class="vop">
+  <div class="vep">
+    <div>
+      <button type="button" class=" madp btn btn-light">    <i class="fa-solid fa-chevron-down"></i></button>
+  
+    </div>
+  
+   <div class="rop">
+  
+    <button type="button" class=" medp btn btn-light"> <i class="fa-solid fa-caret-up"></i>
+      انضمام</button>
+   </div>
+   <div>
+    
+    <button type="button" class=" medp btn btn-light">
+         مشاركه <i class="fa-solid fa-share"></i>  </button>
+   </div>
+  <div>
+  
+      <button type="button" class="mef btn btn-primary"> <i class="fa-solid fa-plus"></i>  دعوه </button>
+  </div>
+    
+  </div>
+
+
+  <div class=" row">
+   <div class=" oss lg-col-12 md-col-12 sm-col-12">
+
+ 
+ 
+    <img class="boss" src="img/2e.jpg" alt="" width="40px" >
+    <img class="bos" src="img/6e.jpg" alt="" width="40px" >
+    <img class="boos" src="img/1e.jpg" alt="" width="40px" >
+    <img class="boes" src="img/2e.jpg" alt="" width="40px" >
+    <img class="bofs" src="img/3e.jpg" alt="" width="40px" >
+    <img class="bods" src="img/4e.jpg" alt="" width="40px" >
+    <img class="dogs" src="img/5e.jpg" alt="" width="40px" >
+    <img class="posf" src="img/6ee.jpg" alt="" width="40px" >
+    <img class="boud" src="img/7e.jpg" alt="" width="40px" >
+    <img class="voud" src="img/2e.jpg" alt="" width="40px" >
+    <img class="gde" src="img/9e.jpg" alt="" width="40px" >
+    <img class="srfg" src="img/10e.jpg" alt="" width="40px" >
+    <img class="dfgr" src="img/11e.jpg" alt="" width="40px" >
+   </div>
+  </div>
+
+</div>
+
+
+  <hr class="ere">
+</section>
+
+<!-- Tabs navs -->
+<ul class="mdd nav nav-tabs mb-3" id="ex1" role="tablist">
+
+  
+  <li class=" nav-item" role="presentation">
+<h5
+data-mdb-tab-init
+id="ex1-tab-1"
+href="#ex1-tabs-1"
+role="tab"
+aria-controls="ex1-tabs-1"
+aria-selected="true"
+class="mdp btn btn-light fs-6"
+> حول</h5>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      data-mdb-tab-init
+      class="mdp btn btn-light fs-6"
+      id="ex1-tab-2"
+      href="#ex1-tabs-2"
+      role="tab"
+      aria-controls="ex1-tabs-2"
+
+      >مناقشه</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      data-mdb-tab-init
+      class="mdp btn btn-light fs-6"
+      id="ex1-tab-3"
+      href="#ex1-tabs-3"
+      role="tab"
+      aria-controls="ex1-tabs-3"
+      aria-selected="false"
+      >عناصر مميزه</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      data-mdb-tab-init
+      class="mdp btn btn-light fs-6"
+      id="ex1-tab-3"
+      href="#ex1-tabs-3"
+      role="tab"
+      aria-controls="ex1-tabs-3"
+      aria-selected="false"
+      >اشخاص</a
+    >
+  </li> 
+
+</ul>
+<!-- Tabs navs -->
+
+<!-- Tabs content -->
+<div class="tab-content" id="ex1-content">
+  <div
+    class="tab-pane fade show active"
+    id="ex1-tabs-1"
+    role="tabpanel"
+    aria-labelledby="ex1-tab-1"
+  > 
+ <div class="row">
+<div class="col-4  lokid">
+ <div class="card gtk" style="width: 20rem;">
+  <div class="card-body">
+<div >
+  <h5 class="card-title">حول</h5>
+  <h6 class="card-subtitle mb-2 text-body-secondary">    جروب الرسمي اللي هنشتغل عليه
+    و هنجط منتجاتنا يوميا و لكن</h6>
+    <h5 class="card-title">
+    عام</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">           يمكن لأي شخص رؤية أعضاء المجموعة وما يقومون بنشره.  
+
+    </h6>
+           <h5 class="card-title">
+            مرئية</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">    يمكن لأي شخص العثور على هذه المجموعة.  
+      
+    </h6>
+</div>
+
+
+
+  </div>
+
+ </div>
+ <div class="vbn card" style="width:20rem;">
+     
+  <p class="gggg">
+    احدث الوسئط
+  </p>
+
+<div class="vpp">
+  <p >
+    <img src="img/sh2.webp" alt="..." width="130px">
+    <img src="img/sh1.webp" alt="" width="130px">
+    </p>
+    <p>
+    <img src="img/sh3.webp" alt="..." width="130px">
+    <img src="img/sh4.webp" alt="..." width="130px">
+    </p>
+</div>
+</div>
+
+
+</div>
+<div class="col-8 ">
+
+<div class="hamo">
+  <div class="bov card m-4   " >
+   
+ 
+    <div class="d-flex">
+    <div> <img src="img/1.jpg"  alt="..." width="40px"></div>
+      <form class="  d-flex" role="search">
+        <input class="vvb form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+      
+      </form>
+       </div>
+    <hr> <div>
+      <button class="no btn btn-light "> <img src="img/r1.png" alt=" " > مقاطع الفديو</button>
+     <button class="no btn btn-light "> <img src="img/r2.png" alt=""> صور و فديوهات</button>
+</div>
+ 
+    
+        <div class="card tof " style="width: 35rem;">
+          <div class="lolo">
+    
+            <img src="img/1.jpg" alt="" width="30px">
+        
+        
+            <h6>Shopping</h6>
+        
+        </div> 
+        <h5 class="card-title mjm">كنبة انتريه فاخره و مريحه</h5>
+    <div class="d-flex"> <div><img src="img/sh1.webp"  class="ert" alt="..." width="200px">
+      <img src="img/sh2.webp"  class="ert" alt="..." width="200px"></div>
+    <div>  <img src="img/sh4.webp"  class="ert" alt="..." width="200px">
+      <img src="img/sh3.webp"  class="ert" alt="..." width="200px"></div>
+      </div>
+      
+      <div class="lele  ">
+        <p>99 تعليقات</p>
+        <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+     
+     </div>
+     <hr class="">
+    
+     <ul class="list-group list-group-flush">
+          
+      <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+       اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+      </p>
+    <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+    <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+    <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+    
+    </li>
+    <li class=" lol list-group-item">
+      <p><img src="img/1.jpg" alt="" width="30px"></p>
+    <p>  <div class=" container-fluid">
+    <form class="  d-flex" role="search">
+      <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+    
+    </form>
+    </div> </p>
+    </li>
+    </ul>
+    
+          </div>
+          <div class="card tof" style="width: 35rem;">
+            <div class="lolo">
+      
+              <img src="img/1.jpg" alt="" width="30px">
+          
+          
+              <h6>Shopping</h6>
+          
+          </div> 
+          <h5 class="card-title mjm"> كومدينو للبيع في معرض ميدو شوب الحق قبل ما العرض ينتهي</h5>
+      <div class="d-flex"> <div><img src="img/c0m1.jfif"  class="ert" alt="..." width="200px">
+        <img src="img/c0m2.jfif"  class="ert" alt="..." width="200px"></div>
+      <div>  <img src="img/c0m3.jfif"  class="ert" alt="..." width="300px">
+    </div>
+        </div>
+        
+        <div class="lele  ">
+          <p>99 تعليقات</p>
+          <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+       
+       </div>
+       <hr class="">
+      
+       <ul class="list-group list-group-flush">
+            
+        <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+         اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+        </p>
+      <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+      <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+      <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+      
+      </li>
+      <li class=" lol list-group-item">
+        <p><img src="img/1.jpg" alt="" width="30px"></p>
+      <p>  <div class=" container-fluid">
+      <form class="  d-flex" role="search">
+        <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+      
+      </form>
+      </div> </p>
+      </li>
+      </ul>
+      
+            </div>
+            <div class="card tof" style="width: 35rem;">
+              <div class="lolo">
+        
+                <img src="img/1.jpg" alt="" width="30px">
+            
+            
+                <h6>Shopping</h6>
+            
+            </div> 
+            <h5 class="card-title mjm">سرير مريح قطن ناعم سعر لقطه الحق بسرعه قبل العرض ما ينتهي</h5>
+        <div class="d-flex"> <div>
+          <img src="img/ser1.jfif"  class="ert" alt="..." width="300px"></div>
+        
+          </div>
+          
+          <div class="lele  ">
+            <p>99 تعليقات</p>
+            <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+         
+         </div>
+         <hr class="">
+        
+         <ul class="list-group list-group-flush">
+              
+          <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+           اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+          </p>
+        <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+        <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+        <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+        
+        </li>
+        <li class=" lol list-group-item">
+          <p><img src="img/1.jpg" alt="" width="30px"></p>
+        <p>  <div class=" container-fluid">
+        <form class="  d-flex" role="search">
+          <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+        
+        </form>
+        </div> </p>
+        </li>
+        </ul>
+        
+              </div>
+              <div class="card tof" style="width: 35rem;">
+                <div class="lolo">
+          
+                  <img src="img/1.jpg" alt="" width="30px">
+              
+              
+                  <h6>Shopping</h6>
+              
+              </div> 
+              <h5 class="card-title mjm">انتريه جاهز متكامل سعر لقطه بمنسبة جمعه البيض</h5>
+          <div class="d-flex"> <div>
+            <img src="img/kan1.jfif"  class="ert" alt="..." width="200px">
+            <img src="img/kan2.jfif"  class="ert" alt="..." width="200px">
+          </div>
+          
+            </div>
+            
+            <div class="lele  ">
+              <p>99 تعليقات</p>
+              <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+           
+           </div>
+           <hr class="">
+          
+           <ul class="list-group list-group-flush">
+                
+            <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+             اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+            </p>
+          <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+          <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+          <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+          
+          </li>
+          <li class=" lol list-group-item">
+            <p><img src="img/1.jpg" alt="" width="30px"></p>
+          <p>  <div class=" container-fluid">
+          <form class="  d-flex" role="search">
+            <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+          
+          </form>
+          </div> </p>
+          </li>
+          </ul>
+          
+        </div>
+        <div class="card tof" style="width: 35rem;">
+          <div class="lolo">
+    
+            <img src="img/1.jpg" alt="" width="30px">
+        
+        
+            <h6>Shopping</h6>
+        
+        </div> 
+        <h5 class="card-title mjm">سرير مريح قطن ناعم سعر لقطه الحق بسرعه قبل العرض ما ينتهي</h5>
+    <div class="d-flex"> <div>
+      <img src="img/ser1.jfif"  class="ert" alt="..." width="300px"></div>
+    
+      </div>
+      
+      <div class="lele  ">
+        <p>99 تعليقات</p>
+        <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+     
+     </div>
+     <hr class="">
+    
+     <ul class="list-group list-group-flush">
+          
+      <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+       اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+      </p>
+    <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+    <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+    <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+    
+    </li>
+    <li class=" lol list-group-item">
+      <p><img src="img/1.jpg" alt="" width="30px"></p>
+    <p>  <div class=" container-fluid">
+    <form class="  d-flex" role="search">
+      <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+    
+    </form>
+    </div> </p>
+    </li>
+    </ul>
+    
+          </div>
+          <div class="card tof" style="width: 35rem;">
+            <div class="lolo">
+      
+              <img src="img/1.jpg" alt="" width="30px">
+          
+          
+              <h6>Shopping</h6>
+          
+          </div> 
+          <h5 class="card-title mjm">مكتب للمذكره و مريح وجاهز توفير  سعر لقطه</h5>
+      <div class="d-flex"> <div>
+        <img src="img/mac1.jfif"  class="ert" alt="..." width="300px">
+
+      </div>
+      
+        </div>
+        
+        <div class="lele  ">
+          <p>99 تعليقات</p>
+          <p>99<img src="img/li;e.svg" alt="" width="20px"></p>
+       
+       </div>
+       <hr class="">
+      
+       <ul class="list-group list-group-flush">
+            
+        <li class="ghhh list-group-item "><p class=" hrrr btn btn-light" >
+         اعجبني <i class="fa-solid fa-thumbs-up"></i> 
+        </p>
+      <p class="hrrr btn btn-light">تعليق  <i class="fa-solid fa-comment"></i></p>
+      <p class="hrrr btn btn-light">ارسال <i class="fa-brands fa-whatsapp"></i></p>
+      <p class="hrrr btn btn-light">مشاركه  <i class="fa-solid fa-share"></i> </p>
+      
+      </li>
+      <li class=" lol list-group-item">
+        <p><img src="img/1.jpg" alt="" width="30px"></p>
+      <p>  <div class=" container-fluid">
+      <form class="  d-flex" role="search">
+        <input class="eee form-control me-2" type="search" placeholder="اكتب شيئا" aria-label="Search">
+      
+      </form>
+      </div> </p>
+      </li>
+      </ul>
+      
+    </div>
+</div>
+        
+</div>
+
+
+
+
+<script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+<div  class="bg"></div>

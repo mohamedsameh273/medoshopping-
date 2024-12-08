@@ -1,0 +1,42 @@
+
+<div class="row d-flex" >
+<div class="lokid col-4 bg-danger"></div>
+ 
+<div class="ghg row col-8  ">
+ 
+  <div class=" bov card m-4" style="width: 35rem;">
+    <div class="d-flex">
+      <img src="img/1.jpg"  alt="..." width="50px">
+      <form class="input-group w-auto my-auto d-none d-sm-flex">
+        <input
+          autocomplete="off"
+          type="search"
+          class="form-control rounded"
+          placeholder="اكتب شيئا"
+          style="min-width: 425px;"
+        />
+        <span class="input-group-text border-0 d-none d-lg-flex"
+          ><i class="fas fa-search"></i
+        ></span>
+      </form>
+      
+     </div><hr> <div class="">
+      <button class="non btn btn-light"> <img src="img/r1.png" alt="">صور فديو بث مباشر</button>
+     <button class="no btn btn-light "> <img src="img/r2.png" alt=""> صور و فديوهات</button>
+     <button class="no btn btn-light "> <img src="img/r3.png" alt=""> ابداء الرأي
+     </button></div>
+   <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
